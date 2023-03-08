@@ -35,7 +35,7 @@ function copyToClipboard(text) {
 }
 
 function copyIP() {
-    copyToClipboard("f3f5.ru-mc.ru");
+    copyToClipboard("mc.f3f5.ru");
 
     const element = document.getElementById("ip-copy");
     if (element.hasAttribute("copied")) {
